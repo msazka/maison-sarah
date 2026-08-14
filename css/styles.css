@@ -1,6 +1,12 @@
+html {
+  font-size: 62.5%;
+}
 body {
   background-color: #faf5ee;
   color: #2f2a25;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 header {
   background-color: #d2691e;
@@ -11,24 +17,31 @@ footer {
   color: #faf5ee;
   padding: 10px;
   text-align: center;
+  font-size: 1.4rem;
+}
+h1 {
+  font-size: 3.6rem;
+}
+h2 {
+  font-size: 2.4rem;
 }
 h1,
 h2,
-h3 {
+h3,
+.brand {
   color: #8a5a2e;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 .tagline {
   color: #6b6257;
+  font-style: italic;
 }
 .brand {
-  font-family: "Georgia", serif;
-  font-size: 1.5em;
   font-weight: bold;
 }
 .price {
   color: #d2691e;
-  font-size: 1.2em;
 }
 .orange-text {
   color: #ff8c00;
