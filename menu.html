@@ -13,54 +13,82 @@
     <title>Maison Sarah</title>
   </head>
   <body>
-    <h1>Maison Sarah</h1>
-    <header class="brand">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="order.html">Order</a>
-      </nav>
-    </header>
-    <section>
-      <p class="tagline">
-        <strong> Bread and pastries</strong>, baked every morning by
-        <em>Sarah and her team</em>
-      </p>
-      <ul>
-        <li>
-          Breads
-          <ul>
-            <li>Country sourdough</li>
+    <div class="container">
+      <header class="brand">
+        <h1>Maison Sarah</h1>
+        <div class="header-bar">
+          <h2>Fresh Baked everyday!</h2>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+          </nav>
+        </div>
+      </header>
+      <section>
+        <p class="tagline">
+          <strong> Bread and pastries</strong>, baked every morning by
+          <em>Sarah and her team</em>
+        </p>
+        <h2>Weekend Specials</h2>
+        <div class="card-row">
+          <article class="card">
+            <img
+              src="images/sourdough.png"
+              alt="A round loaf of country sourdough bread with a golden, floured crust."
+            />
+            <h3>Country Sourdough</h3>
             <span class="price">2.0</span>
-            <li>Baguette</li>
-            <span class="price">1.5</span>
-          </ul>
-        </li>
-        <li>
-          Pastries
-          <ul>
-            <li>Butter croissant</li>
-            <span class="price">0.90</span>
-            <li>Cheese croissant</li>
-            <span class="price">0.95</span>
-          </ul>
-        </li>
-        <li>
-          Donuts
-          <ul>
-            <li>Chocolate Donut</li>
-            <span class="price">1.0</span>
-            <li>Blueberry Donut</li>
-            <span class="price">1.0</span>
-          </ul>
-        </li>
-      </ul>
+          </article>
 
-      <p>Whole loaf: <span class="price">5.80</span></p>
-    </section>
-    <footer>
-      <p>Pre-orders close <strong>Thursday evening</strong>.</p>
-      <p>Everything here was dough <em>before sunrise</em>.</p>
-    </footer>
+          <article class="card">
+            <img
+              src="images/croissant.png"
+              alt="A flaky, golden-brown butter croissant on a wooden board."
+            />
+            <h3>Butter Croissant</h3>
+            <span class="price">0.90</span>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/donut.png"
+              alt="A glazed chocolate donut topped with a light dusting of sugar."
+            />
+            <h3>Chocolate Donut</h3>
+            <span class="price">1.0</span>
+          </article>
+        </div>
+        <ul>
+          <li>
+            Breads
+            <ul>
+              <li>Country sourdough <span class="price">2.0</span></li>
+              <li>Baguette <span class="price">1.5</span></li>
+            </ul>
+          </li>
+          <li>
+            Pastries
+            <ul>
+              <li>Butter croissant <span class="price">0.90</span></li>
+              <li>Cheese croissant <span class="price">0.95</span></li>
+            </ul>
+          </li>
+          <li>
+            Donuts
+            <ul>
+              <li>Chocolate Donut <span class="price">1.0 </span></li>
+              <li>Blueberry Donut <span class="price">1.0</span></li>
+            </ul>
+          </li>
+        </ul>
+
+        <p>Whole loaf: <span class="price">5.80</span></p>
+      </section>
+      <footer>
+        <p>Pre-orders close <strong>Thursday evening</strong>.</p>
+        <p>Everything here was dough <em>before sunrise</em>.</p>
+      </footer>
+    </div>
   </body>
 </html>
