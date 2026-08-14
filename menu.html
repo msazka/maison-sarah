@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Maison Sarah</title>
   </head>
   <body>
     <h1>Maison Sarah</h1>
-    <header>
+    <header class="brand">
       <nav>
         <a href="index.html">Home</a>
         <a href="menu.html">Menu</a>
@@ -15,37 +16,41 @@
       </nav>
     </header>
     <section>
+      <p class="tagline">
+        <strong> Bread and pastries</strong>, baked every morning by
+        <em>Sarah and her team</em>
+      </p>
       <ul>
         <li>
           Breads
           <ul>
             <li>Country sourdough</li>
-            <span>2.0</span>
+            <span class="price">2.0</span>
             <li>Baguette</li>
-            <span>1.5</span>
+            <span class="price">1.5</span>
           </ul>
         </li>
         <li>
           Pastries
           <ul>
             <li>Butter croissant</li>
-            <span>0.90</span>
+            <span class="price">0.90</span>
             <li>Cheese croissant</li>
-            <span>.95</span>
+            <span class="price">0.95</span>
           </ul>
         </li>
         <li>
           Donuts
           <ul>
             <li>Chocolate Donut</li>
-            <span>1.0</span>
+            <span class="price">1.0</span>
             <li>Blueberry Donut</li>
-            <span>1.0</span>
+            <span class="price">1.0</span>
           </ul>
         </li>
       </ul>
 
-      <p>Whole loaf: <span>5.80</span></p>
+      <p>Whole loaf: <span class="price">5.80</span></p>
     </section>
     <footer>
       <p>Pre-orders close <strong>Thursday evening</strong>.</p>
