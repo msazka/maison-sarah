@@ -90,3 +90,60 @@ nav {
 .card img {
   width: 100%;
 }
+
+.field .textarea {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  border: 1px solid #c9bda9;
+  width: 100%;
+  max-width: 40rem;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.choice label {
+  display: inline;
+  font-weight: 400;
+}
+.field:focus {
+  outline: 3px solid #e9b872;
+}
+input {
+  accent-color: #8a5a2e;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th,
+td {
+  border: 1px solid #ca9e56;
+  padding: 0.8rem 1.2rem;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e2b258;
+}
+textarea {
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  width: 100%;
+  max-width: 40rem;
+}
+button {
+  background-color: #d2691e;
+  color: #faf5ee;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  border: solid 1px #1d1207;
+}
+button:hover {
+  background-color: #8a5a2e;
+}

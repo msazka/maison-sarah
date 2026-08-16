@@ -26,7 +26,94 @@
         </div>
       </header>
       <main>
-        <p>we are building orders for you!</p>
+        <section>
+          <form action="#" method="get">
+            <fieldset>
+              <legend>Who is Picking up</legend>
+              <label for="customer-name" class="field">Your Name</label>
+              <input
+                class="field"
+                type="text"
+                id="customer-name"
+                placeholder="Sarah"
+                name="customer-name"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Pickup Day</legend>
+              <div class="choice">
+                <label for="day-saturday">Saturday</label>
+                <input
+                  type="radio"
+                  id="day-saturday"
+                  name="pickup-day"
+                  value="saturday"
+                  checked
+                />
+              </div>
+              <div class="choice">
+                <label for="day-sunday">Sunday</label>
+                <input
+                  type="radio"
+                  id="day-sunday"
+                  name="pickup-day"
+                  value="sunday"
+                />
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>What would you like to order?</legend>
+              <div class="choice">
+                <label for="product-sourdough">Sourdough</label>
+                <input
+                  type="checkbox"
+                  id="product-sourdough"
+                  name="product-sourdough"
+                  value="sourdough"
+                />
+              </div>
+              <div class="choice">
+                <label for="product-donut">Donut</label>
+                <input
+                  type="checkbox"
+                  id="product-donut"
+                  name="product-donut"
+                  value="donut"
+                />
+              </div>
+              <div class="choice">
+                <label for="product-croissant">Croissant</label>
+                <input
+                  type="checkbox"
+                  id="product-croissant"
+                  name="product-croissant"
+                  value="croissant"
+                />
+              </div>
+              <div class="choice">
+                <label for="product-baguette">Baguette</label>
+                <input
+                  type="checkbox"
+                  id="product-baguette"
+                  name="product-baguette"
+                  value="baguette"
+                />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Special Instructions</legend>
+              <textarea
+                width="100%"
+                id="special-instructions"
+                name="special-instructions"
+                placeholder="Any special instructions?"
+              ></textarea>
+            </fieldset>
+            <button type="submit">Place Pre-order</button>
+          </form>
+        </section>
       </main>
       <footer>
         <p>Pre-orders close <strong>Thursday evening</strong>.</p>
